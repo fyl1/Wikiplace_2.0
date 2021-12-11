@@ -45,7 +45,6 @@ export default {
 </script>
 
 <style lang="scss">
- @import "../assets/scss/base/variables.scss";
  .footer {
     // background-color: var(--bac-fon);
     background-color: $bac-fon;

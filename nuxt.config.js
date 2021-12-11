@@ -12,7 +12,7 @@ export default {
     ]
   },
 
-  css: ['~/assets/sсss/common.sсss'],
+  // css: ['~/assets/sсss/common.sсss'],
 
   styleResources: {
     scss: [

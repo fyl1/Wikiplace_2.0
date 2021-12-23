@@ -1,9 +1,13 @@
 <template>
- <div class="logo">
-   <img src="~/assets/icons/wikiplace.png" />
- </div>
+  <div class="logo">
+    <NuxtLink to="/"> <img src="~/assets/icons/wikiplace.png"/></NuxtLink>
+  </div>
 </template>
 
-<style>
-
+<style lang="scss">
+.logo {
+    img{
+background-color: transparent;
+    }
+}
 </style>

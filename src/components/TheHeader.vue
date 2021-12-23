@@ -16,17 +16,18 @@
         <div class="menu">
           <ul class="menu__list">
             <li class="menu__item">
-              <a href="">О нас</a>
+                <NuxtLink to="/about">О нас</NuxtLink>
             </li>
-            <li class="menu__item"><a href="">Города</a></li>
-            <li class="menu__item"><a href="">Контакты</a></li>
+            
+            <li class="menu__item"> <NuxtLink to="/">Города</NuxtLink></li>
+            <li class="menu__item">  <NuxtLink to="/">Контакты</NuxtLink></li>
           </ul>
         </div>
         <div class="create-account">
-          <a href="" class="create-account__link"></a>
+          <span class="create-account__link"><NuxtLink to="/registration">Создать аккаунт</NuxtLink></span>
         </div>
         <div class="enter">
-          <a href="" class="enter__link"></a>
+          <a href="" class="enter__link">Войти</a>
         </div>
       </div>
     </div>
@@ -42,7 +43,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "../assets/scss/base/variables.scss";
+ @import "../../src/assets/sсss/variables.scss";
 .header {
   // .header__inner
 
